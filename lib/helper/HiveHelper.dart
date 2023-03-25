@@ -40,4 +40,8 @@ class HiverHelper {
     await _scanList.delete(itemKey);
   }
 
+  static Future<void> clear() async {
+    await _scanList.clear();
+  }
+
 }
